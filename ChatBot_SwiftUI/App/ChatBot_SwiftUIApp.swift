@@ -11,7 +11,7 @@ import SwiftUI
 struct ChatBot_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            SplashView()
         }
     }
 }
