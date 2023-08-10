@@ -8,28 +8,31 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @State private var isShowingChatView = false
+    
     var body: some View {
-        VStack {
-            Spacer()
-                .frame(height: 60)
-            Text("You AI Assistant")
-                .font(.title)
-                .foregroundStyle(Color.accentColor)
-            Spacer()
-                .frame(height: 14)
-            Text("Using this software,you can ask you questions and receive articles using artificial intelligence assistant")
-                .font(.subheadline)
-                .foregroundStyle(Color.gray)
-                .padding(.leading, 66)
-                .padding(.trailing, 66)
-            Spacer()
-                .frame(height: 80)
-            Image("OnboardingImage")
-            Spacer()
-            Button(action: {
-                
-            }, label: {
-
+        NavigationStack {
+            VStack {
+                Spacer()
+                    .frame(height: 60)
+                Text("You AI Assistant")
+                    .font(.title)
+                    .foregroundStyle(Color.accentColor)
+                Spacer()
+                    .frame(height: 14)
+                Text("Using this software,you can ask you questions and receive articles using artificial intelligence assistant")
+                    .font(.subheadline)
+                    .foregroundStyle(Color.gray)
+                    .padding(.leading, 66)
+                    .padding(.trailing, 66)
+                Spacer()
+                    .frame(height: 80)
+                Image("OnboardingImage")
+                Spacer()
+                Button(action: {
+                    self.isShowingChatView = true
+                }, label: {
+                    
                     ZStack {
                         HStack {
                             Spacer()
@@ -39,7 +42,7 @@ struct OnboardingView: View {
                             Spacer()
                         }
                         HStack {
-                          Spacer()
+                            Spacer()
                             Image(systemName: "arrow.right")
                                 .resizable()
                                 .frame(width: 24, height: 16)
@@ -55,11 +58,15 @@ struct OnboardingView: View {
                             )
                             .fill(.blue)
                         })
-            })
-            .padding(.leading, 21)
-            .padding(.trailing, 21)
+                })
+                .padding(.leading, 21)
+                .padding(.trailing, 21)
+            }
+            .navigationDestination(isPresented: $isShowingChatView) { ChatView() }
         }
+        
     }
+    
 }
 
 #Preview {
