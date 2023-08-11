@@ -25,48 +25,34 @@ struct OnboardingView: View {
                     .foregroundStyle(Color.gray)
                     .padding(.leading, 66)
                     .padding(.trailing, 66)
+                    .frame(minHeight: 100)
                 Spacer()
-                    .frame(height: 80)
+                    .frame(minHeight: 20, maxHeight: 80)
                 Image("OnboardingImage")
                 Spacer()
-                Button(action: {
-                    self.isShowingChatView = true
-                }, label: {
-                    
-                    ZStack {
-                        HStack {
-                            Spacer()
-                            Text("Continue")
-                                .font(.title2)
-                                .fontWeight(.medium)
-                            Spacer()
-                        }
-                        HStack {
-                            Spacer()
-                            Image(systemName: "arrow.right")
-                                .resizable()
-                                .frame(width: 24, height: 16)
-                        }
+                ZStack {
+                    LargeButton(title: "Continue", backgroundColor: Color.blue) {
+                        self.isShowingChatView = true
                     }
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(
-                        ZStack {
-                            RoundedRectangle(
-                                cornerRadius: 20,
-                                style: .continuous
-                            )
-                            .fill(.blue)
-                        })
-                })
-                .padding(.leading, 21)
-                .padding(.trailing, 21)
+                    HStack {
+                        Spacer()
+                        Image(systemName: "arrow.right")
+                            .resizable()
+                            .frame(width: 24, height: 16)
+                        Spacer()
+                            .frame(width: 40)
+                    }
+                }
+                .foregroundColor(.white)
+                
+                Spacer()
+                    .frame(height: 30)
             }
             .navigationDestination(isPresented: $isShowingChatView) { ChatView() }
+            .navigationTitle("")
         }
-        
+        .accentColor(.gray)
     }
-    
 }
 
 #Preview {

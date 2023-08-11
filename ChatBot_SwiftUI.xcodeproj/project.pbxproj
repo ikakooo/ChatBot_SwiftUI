@@ -17,6 +17,7 @@
 		336E9EE02A84F115002C6ECD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EDF2A84F115002C6ECD /* SplashView.swift */; };
 		336E9EE22A84F144002C6ECD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE12A84F144002C6ECD /* ChatView.swift */; };
 		336E9EE42A84F155002C6ECD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE32A84F155002C6ECD /* OnboardingView.swift */; };
+		336E9EE72A855763002C6ECD /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE62A855763002C6ECD /* LargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		336E9EDF2A84F115002C6ECD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		336E9EE12A84F144002C6ECD /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		336E9EE32A84F155002C6ECD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		336E9EE62A855763002C6ECD /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				336E9EDB2A84F0BD002C6ECD /* App */,
+				336E9EE52A85574F002C6ECD /* CustomViews */,
 				336E9EDA2A84F0B8002C6ECD /* UI */,
 				336E9EAE2A84EC77002C6ECD /* ChatBot_SwiftUI.entitlements */,
 				336E9EAF2A84EC77002C6ECD /* Preview Content */,
@@ -176,6 +179,14 @@
 				336E9EE12A84F144002C6ECD /* ChatView.swift */,
 			);
 			path = Chat;
+			sourceTree = "<group>";
+		};
+		336E9EE52A85574F002C6ECD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				336E9EE62A855763002C6ECD /* LargeButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 				336E9EA92A84EC72002C6ECD /* ChatBot_SwiftUIApp.swift in Sources */,
 				336E9EE42A84F155002C6ECD /* OnboardingView.swift in Sources */,
 				336E9EE02A84F115002C6ECD /* SplashView.swift in Sources */,
+				336E9EE72A855763002C6ECD /* LargeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
