@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3342006F2A8A8E75001FCE97 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 3342006E2A8A8E75001FCE97 /* Introspect */; };
+		334200712A8A8E75001FCE97 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 334200702A8A8E75001FCE97 /* SwiftUIIntrospect */; };
+		334200742A8A8EB8001FCE97 /* ExyteMediaPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 334200732A8A8EB8001FCE97 /* ExyteMediaPicker */; };
+		334200772A8A8F06001FCE97 /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 334200762A8A8F06001FCE97 /* FloatingButton */; };
+		3342007A2A8A8F26001FCE97 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 334200792A8A8F26001FCE97 /* ActivityIndicatorView */; };
+		3363F7BE2AA1C42E00AEBBDD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7BD2AA1C42E00AEBBDD /* MessageView.swift */; };
+		3363F7C02AA1C4CE00AEBBDD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7BF2AA1C4CE00AEBBDD /* Message.swift */; };
+		3363F7C22AA1C4F900AEBBDD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7C12AA1C4F900AEBBDD /* User.swift */; };
+		3363F7C42AA1C54D00AEBBDD /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7C32AA1C54D00AEBBDD /* ContentMessageView.swift */; };
+		3363F7C72AA1CA1F00AEBBDD /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7C62AA1CA1F00AEBBDD /* KeyboardResponder.swift */; };
+		3363F7C92AA1CA5600AEBBDD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3363F7C82AA1CA5600AEBBDD /* View+Extension.swift */; };
 		336E9EA92A84EC72002C6ECD /* ChatBot_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EA82A84EC72002C6ECD /* ChatBot_SwiftUIApp.swift */; };
 		336E9EAB2A84EC72002C6ECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EAA2A84EC72002C6ECD /* ContentView.swift */; };
 		336E9EAD2A84EC77002C6ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336E9EAC2A84EC77002C6ECD /* Assets.xcassets */; };
@@ -15,9 +26,10 @@
 		336E9EC52A84EC78002C6ECD /* ChatBot_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EC42A84EC78002C6ECD /* ChatBot_SwiftUIUITests.swift */; };
 		336E9EC72A84EC78002C6ECD /* ChatBot_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EC62A84EC78002C6ECD /* ChatBot_SwiftUIUITestsLaunchTests.swift */; };
 		336E9EE02A84F115002C6ECD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EDF2A84F115002C6ECD /* SplashView.swift */; };
-		336E9EE22A84F144002C6ECD /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE12A84F144002C6ECD /* ChatView.swift */; };
+		336E9EE22A84F144002C6ECD /* BotChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE12A84F144002C6ECD /* BotChatView.swift */; };
 		336E9EE42A84F155002C6ECD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE32A84F155002C6ECD /* OnboardingView.swift */; };
 		336E9EE72A855763002C6ECD /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E9EE62A855763002C6ECD /* LargeButton.swift */; };
+		338F26F72A88D0CD002EA2B9 /* BotChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338F26F62A88D0CC002EA2B9 /* BotChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3363F7BD2AA1C42E00AEBBDD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		3363F7BF2AA1C4CE00AEBBDD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3363F7C12AA1C4F900AEBBDD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3363F7C32AA1C54D00AEBBDD /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
+		3363F7C62AA1CA1F00AEBBDD /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		3363F7C82AA1CA5600AEBBDD /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		336E9EA52A84EC72002C6ECD /* ChatBot_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336E9EA82A84EC72002C6ECD /* ChatBot_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot_SwiftUIApp.swift; sourceTree = "<group>"; };
 		336E9EAA2A84EC72002C6ECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,9 +68,10 @@
 		336E9EC42A84EC78002C6ECD /* ChatBot_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		336E9EC62A84EC78002C6ECD /* ChatBot_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		336E9EDF2A84F115002C6ECD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		336E9EE12A84F144002C6ECD /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		336E9EE12A84F144002C6ECD /* BotChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatView.swift; sourceTree = "<group>"; };
 		336E9EE32A84F155002C6ECD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		336E9EE62A855763002C6ECD /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		338F26F62A88D0CC002EA2B9 /* BotChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3342007A2A8A8F26001FCE97 /* ActivityIndicatorView in Frameworks */,
+				334200742A8A8EB8001FCE97 /* ExyteMediaPicker in Frameworks */,
+				3342006F2A8A8E75001FCE97 /* Introspect in Frameworks */,
+				334200772A8A8F06001FCE97 /* FloatingButton in Frameworks */,
+				334200712A8A8E75001FCE97 /* SwiftUIIntrospect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3363F7C52AA1C9FB00AEBBDD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3363F7C62AA1CA1F00AEBBDD /* KeyboardResponder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		336E9E9C2A84EC72002C6ECD = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +137,9 @@
 			children = (
 				336E9EDB2A84F0BD002C6ECD /* App */,
 				336E9EE52A85574F002C6ECD /* CustomViews */,
+				3363F7C52AA1C9FB00AEBBDD /* Helpers */,
+				338F26EA2A88CE8E002EA2B9 /* Model */,
+				338F26F32A88CFD0002EA2B9 /* Extensions */,
 				336E9EDA2A84F0B8002C6ECD /* UI */,
 				336E9EAE2A84EC77002C6ECD /* ChatBot_SwiftUI.entitlements */,
 				336E9EAF2A84EC77002C6ECD /* Preview Content */,
@@ -176,7 +211,8 @@
 		336E9EDE2A84F0FB002C6ECD /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				336E9EE12A84F144002C6ECD /* ChatView.swift */,
+				336E9EE12A84F144002C6ECD /* BotChatView.swift */,
+				338F26F62A88D0CC002EA2B9 /* BotChatViewModel.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -185,8 +221,27 @@
 			isa = PBXGroup;
 			children = (
 				336E9EE62A855763002C6ECD /* LargeButton.swift */,
+				3363F7BD2AA1C42E00AEBBDD /* MessageView.swift */,
+				3363F7C32AA1C54D00AEBBDD /* ContentMessageView.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		338F26EA2A88CE8E002EA2B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3363F7BF2AA1C4CE00AEBBDD /* Message.swift */,
+				3363F7C12AA1C4F900AEBBDD /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		338F26F32A88CFD0002EA2B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3363F7C82AA1CA5600AEBBDD /* View+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +260,13 @@
 			dependencies = (
 			);
 			name = ChatBot_SwiftUI;
+			packageProductDependencies = (
+				3342006E2A8A8E75001FCE97 /* Introspect */,
+				334200702A8A8E75001FCE97 /* SwiftUIIntrospect */,
+				334200732A8A8EB8001FCE97 /* ExyteMediaPicker */,
+				334200762A8A8F06001FCE97 /* FloatingButton */,
+				334200792A8A8F26001FCE97 /* ActivityIndicatorView */,
+			);
 			productName = ChatBot_SwiftUI;
 			productReference = 336E9EA52A84EC72002C6ECD /* ChatBot_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -277,6 +339,12 @@
 				Base,
 			);
 			mainGroup = 336E9E9C2A84EC72002C6ECD;
+			packageReferences = (
+				3342006D2A8A8E75001FCE97 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				334200722A8A8EB8001FCE97 /* XCRemoteSwiftPackageReference "MediaPicker" */,
+				334200752A8A8F06001FCE97 /* XCRemoteSwiftPackageReference "FloatingButton" */,
+				334200782A8A8F26001FCE97 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
 			productRefGroup = 336E9EA62A84EC72002C6ECD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -319,12 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				336E9EE22A84F144002C6ECD /* ChatView.swift in Sources */,
+				336E9EE22A84F144002C6ECD /* BotChatView.swift in Sources */,
+				3363F7C72AA1CA1F00AEBBDD /* KeyboardResponder.swift in Sources */,
 				336E9EAB2A84EC72002C6ECD /* ContentView.swift in Sources */,
+				3363F7BE2AA1C42E00AEBBDD /* MessageView.swift in Sources */,
 				336E9EA92A84EC72002C6ECD /* ChatBot_SwiftUIApp.swift in Sources */,
 				336E9EE42A84F155002C6ECD /* OnboardingView.swift in Sources */,
+				3363F7C22AA1C4F900AEBBDD /* User.swift in Sources */,
 				336E9EE02A84F115002C6ECD /* SplashView.swift in Sources */,
 				336E9EE72A855763002C6ECD /* LargeButton.swift in Sources */,
+				338F26F72A88D0CD002EA2B9 /* BotChatViewModel.swift in Sources */,
+				3363F7C42AA1C54D00AEBBDD /* ContentMessageView.swift in Sources */,
+				3363F7C92AA1CA5600AEBBDD /* View+Extension.swift in Sources */,
+				3363F7C02AA1C4CE00AEBBDD /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J4383386FU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chat Bot";
@@ -497,12 +573,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ditooo.ChatBot-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = ikakooo.ChatBot.SwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -521,6 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J4383386FU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chat Bot";
@@ -534,12 +611,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ditooo.ChatBot-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = ikakooo.ChatBot.SwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -675,6 +752,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3342006D2A8A8E75001FCE97 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.10.0;
+			};
+		};
+		334200722A8A8EB8001FCE97 /* XCRemoteSwiftPackageReference "MediaPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/MediaPicker.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.4;
+			};
+		};
+		334200752A8A8F06001FCE97 /* XCRemoteSwiftPackageReference "FloatingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/FloatingButton";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.5;
+			};
+		};
+		334200782A8A8F26001FCE97 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3342006E2A8A8E75001FCE97 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3342006D2A8A8E75001FCE97 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+		334200702A8A8E75001FCE97 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3342006D2A8A8E75001FCE97 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		334200732A8A8EB8001FCE97 /* ExyteMediaPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 334200722A8A8EB8001FCE97 /* XCRemoteSwiftPackageReference "MediaPicker" */;
+			productName = ExyteMediaPicker;
+		};
+		334200762A8A8F06001FCE97 /* FloatingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 334200752A8A8F06001FCE97 /* XCRemoteSwiftPackageReference "FloatingButton" */;
+			productName = FloatingButton;
+		};
+		334200792A8A8F26001FCE97 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 334200782A8A8F26001FCE97 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 336E9E9D2A84EC72002C6ECD /* Project object */;
 }

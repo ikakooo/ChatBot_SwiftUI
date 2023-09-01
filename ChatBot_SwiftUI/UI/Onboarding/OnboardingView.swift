@@ -48,7 +48,7 @@ struct OnboardingView: View {
                 Spacer()
                     .frame(height: 30)
             }
-            .navigationDestination(isPresented: $isShowingChatView) { ChatView() }
+            .navigationDestination(isPresented: $isShowingChatView) { BotChatView() }
             .navigationTitle("")
         }
         .accentColor(.gray)
