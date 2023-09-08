@@ -27,7 +27,6 @@ struct MessageView : View {
             }
             ContentMessageView(contentMessage: currentMessage.content,
                                isCurrentUser: currentMessage.user.isCurrentUser)
-           // Spacer()
         }.padding(10)
     }
 }

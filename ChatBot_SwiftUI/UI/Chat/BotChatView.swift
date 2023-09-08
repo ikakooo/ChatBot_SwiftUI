@@ -22,22 +22,27 @@ struct BotChatView: View {
     
     var body: some View {
         VStack {
+            Spacer()
+                .frame(height: 2)
+                .background(.blue)
             ScrollViewReader { proxy in
                 List {
                     ForEach(viewModel.realTimeMessages, id: \.self) { msg in
                         MessageView(currentMessage: msg)
                             .id(msg)
+                            .listRowSeparator(.hidden)
+                            .listRowInsets(.init(top: 0, leading: 10, bottom: 0, trailing: 10))
                     }
                 }
                 .onChange(of: viewModel.realTimeMessages) { _ in
                     proxy.scrollTo(viewModel.realTimeMessages.last)
                 }
-                .listStyle(PlainListStyle())
+                .listStyle(.plain)
             }
             VStack {
                 Spacer()
                     .frame(height: 2)
-                    .foregroundColor(.blue)
+                    .background(.blue)
                 HStack {
 
                     TextField("", text: $typingMessage)
